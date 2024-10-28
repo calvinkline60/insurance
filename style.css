@@ -1,0 +1,813 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    position: relative;
+    bottom: -40px;
+}
+
+.logo img{
+    position: relative;
+    left: 90px;
+    bottom: -13px;
+}
+
+header{
+    background-color: lawngreen;
+    width: 101%;
+    height: 105vh;
+    position: relative;
+    left: -7px;
+    bottom: 20px;
+}
+
+header ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 400px;
+    font-size: 19px;
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 50px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: blue;
+    font-family: Arial,;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+header ul li a:hover{
+    color: #000;
+}
+
+.login{
+    position: relative;
+    left: 600px;
+    top: -12px;
+}
+
+.btn{
+    position: relative;
+    left: 10px;
+    width: 120px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.btn:hover{
+    background-color: lightblue;
+    color: #000;
+}
+
+h1{
+    position: relative;
+    bottom: 19px;
+}
+
+h5{
+    position: absolute;
+    top: 37px;
+}
+
+.content{
+    position: absolute;
+    text-align: center;
+    top: 130px;
+    left: 310px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content img{
+    position: absolute;
+    left: -10px;
+    bottom: -300px;
+}
+
+.content p{
+    font-size: 25px;
+    position: relative;
+    bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content .btt{
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    width: 190px;
+    height: 40px;
+}
+
+.content .btt:hover{
+    background-color: lightblue;
+    color: #000;
+}
+
+.comment{
+    position: absolute;
+    background-color: #fff;
+    bottom: -1500px;
+    width: 100%;
+    height: 200vh;
+    padding: 10px;
+    right: 1px;
+}
+
+.comment p{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.text{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid;
+    width: 20%;
+    border-radius: 10px;
+    position: relative;
+    top: 50px;
+    height: 40vh;
+    left: 70px;
+}
+
+.text h4{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.text p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text h3{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.text button{
+    background-color: lawngreen;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    width: 230px;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    position: relative;
+    left: 30px;
+}
+
+.text button:hover{
+    background-color: lightblue;
+    color: #000;
+}
+
+.text1{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid;
+    width: 20%;
+    border-radius: 10px;
+    position: absolute;
+    top: 217px;
+    height: 40vh;
+    left: 790px;
+}
+
+.text1 h4{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.text1 p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text1 h3{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.text1 button{
+    background-color: lawngreen;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    width: 230px;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    position: relative;
+    left: 30px;
+}
+
+.text1 button:hover{
+    background-color: lightblue;
+    color: #000;
+}
+
+.text2{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid;
+    width: 20%;
+    border-radius: 10px;
+    position: absolute;
+    top: 217px;
+    height: 40vh;
+    left: 1150px;
+}
+
+.text2 h4{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.text2 p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text2 h3{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.text2 button{
+    background-color: lawngreen;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    width: 230px;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    position: relative;
+    left: 30px;
+}
+
+.text2 button:hover{
+    background-color: lightblue;
+    color: #000;
+}
+
+.text3{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid;
+    width: 20%;
+    border-radius: 10px;
+    position: absolute;
+    top: 217px;
+    height: 40vh;
+    left: 450px;
+}
+
+.text3 h4{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.text3 p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text3 h3{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.text3 button{
+    background-color: lawngreen;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    width: 230px;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    position: relative;
+    left: 30px;
+}
+
+.text3 button:hover{
+    background-color: lightblue;
+    color: #000;
+}
+
+.circle{
+    background-color: #000;
+    color: #fff;
+    height: 80vh;
+    width: 90%;
+    position: relative;
+    bottom: -290px;
+    left: 60px;
+    border-radius: 40px;
+}
+
+.circle p{
+    font-size: 49px;
+    position: absolute;
+    left: 90px;
+    bottom: 410px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.claim{
+    background-color: lawngreen;
+    position: absolute;
+    bottom: 30px;
+    left: 80px;
+    color: #000;
+    border: 1px solid;
+    width: 350px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.claim p{
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 110px;
+    left: 45px;
+}
+
+.claim h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.claim1{
+    background-color: lawngreen;
+    position: absolute;
+    bottom: 30px;
+    left: 490px;
+    color: #000;
+    border: 1px solid;
+    width: 350px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.claim1 p{
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 110px;
+    left: 45px;
+}
+
+.claim1 h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.claim2{
+    background-color: lawngreen;
+    position: absolute;
+    bottom: 30px;
+    left: 900px;
+    color: #000;
+    border: 1px solid;
+    width: 350px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.claim2 p{
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 110px;
+    left: 45px;
+}
+
+.claim2 h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.test h1{
+    position: absolute;
+    left: 0;
+    bottom: -850px;
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    width: 100%;
+    height: 120vh;
+}
+
+.lone{
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    width: 18%;
+    padding: 20px;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: -550px;
+    left: 90px;
+    transform: rotate(5deg) scaleX(1.2);
+}
+
+.lone p{
+    text-align: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lone h3{
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lone1{
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    width: 18%;
+    padding: 20px;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: -302px;
+    left: 450px;
+    transform: rotate(-5deg) scaleX(1.2);
+}
+
+.lone1 p{
+    text-align: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lone1 h3{
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lone2{
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    width: 20%;
+    padding: 20px;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: -302px;
+    left: 800px;
+    transform: rotate(5deg) scaleX(1.2);
+}
+
+.lone2 p{
+    text-align: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lone2 h3{
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lone3{
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    width: 20%;
+    padding: 20px;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: -302px;
+    left: 1150px;
+    
+}
+
+.lone3 p{
+    text-align: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lone3 h3{
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.apps h2{
+    background-color: #000;
+    position: relative;
+    bottom: -630px;
+    left: 290px;
+    border: 1px ;
+    width: 60%;
+    height: 20vh;
+    padding: 40px;
+    border-radius: 20px;
+    color: lawngreen;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.play{
+    position: absolute;
+    border: 1px solid #fff;
+    width: 16%;
+    height: 10vh;
+    padding: 10px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 10px;
+    left: 940px;
+    bottom: -520px;
+}
+
+.play p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: absolute;
+    top: -1px;
+    left: 75px;
+}
+
+.play h3{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: right;
+    position: absolute;
+    top: -2px;
+    left: 70px;
+}
+
+.play1{
+    position: absolute;
+    border: 1px solid #fff;
+    width: 16%;
+    height: 10vh;
+    padding: 10px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 10px;
+    left: 680px;
+    bottom: -520px;
+}
+
+.play1 p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: absolute;
+    top: -1px;
+    left: 75px;
+}
+
+.play1 h3{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: right;
+    position: absolute;
+    top: -2px;
+    left: 70px;
+}
+
+
+.service{
+    background-color: #fff;
+    border: 1px;
+    position: relative;
+    bottom: -809px;
+    width: 102%;
+    padding: 10px;
+    left: -20px;
+    height: 60vh;
+}
+
+.service h2{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.service p{
+    font-size: 20px;
+}
+
+.service button{
+    position: relative;
+    left: 665px;
+    width: 190px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    font-size: 20px;
+    bottom: -10px;
+}
+
+.service button:hover{
+    background-color: lightblue;
+    color: #000;
+}
+
+footer{
+    background-color: black;
+    position: relative;
+    bottom: -2700px;
+    width: 102%;
+    left: -23px;
+}
+.footer-container {
+    background-color: #000;
+    color: #000;
+    padding: 40px 0;
+    height: 35vh;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: 1;
+    position: absolute;
+    left: 90px;
+    margin-left: 10px;
+}
+
+.footer-section {
+    padding: 0 20px;
+    max-width: 300px;
+    margin-left: 60px;
+}
+
+.footer-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+    color: #fff;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+.footer-section ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+}
+
+.footer-section ul li a:hover{
+    color: lawngreen;
+}
+
+
+
+.social-icons a {
+    color: #fff;
+    font-size: 20px;
+    margin-right: x;
+    display: flex;
+    text-decoration: none;
+    padding: 5px;
+    transition: ease-in-out;
+}
+
+.social-icons a:hover{
+    color: #ff7200;
+}
+.bottom-bar {
+    color: red;
+    text-align: center;
+    padding-top: 9px;
+    border-top: 1px solid #444;
+}
+
+.bottom-bar p {
+    color: lawngreen;
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.bottom-bar a {
+    color: lawngreen;
+    text-decoration: none;
+}
+
+.bottom-bar a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#name{
+    padding: 15px;
+    width: 20%;
+    border-radius: 15px;
+    font-size: 20px;
+    position: relative;
+    left: 1000px;
+    top: -60px;
+}
+
+#submit-btn{
+    background-color: lawngreen;
+    width: 15%;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 20px;
+    position: relative;
+    left: 690px;
+}
+
+#channel{
+    color: #fff;
+    position: absolute;
+    left: 1000px;
+    font-size: 30px;
+    bottom: 200px;
+    font-weight: bold;
+}
+
+.hack img{
+    background-color: #000;
+    color: #000;
+    position: absolute;
+}
